@@ -1,0 +1,30 @@
+{
+  "name": "@laanayam333/next-json-ld",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://laam.dev",
+  "repository": {
+    "url": "https://github.com/laanayam333/next-json-ld"
+  },
+  "scripts": {
+    "build": "tsup",
+    "lint": "tsc"
+  },
+  "dependencies": {
+    "next": "^13.5.6"
+  },
+  "keywords": [
+    "JSON-LD"
+  ],
+  "author": "laam.dev",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/react": "^18.2.51",
+    "schema-dts": "^1.1.2",
+    "tsup": "^7.2.0",
+    "typescript": "^5.3.3"
+  }
+}
